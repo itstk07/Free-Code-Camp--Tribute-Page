@@ -4,7 +4,8 @@
     <title>Tribute to Barack Obama</title>
     <style>
 body {
-font-family: sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
 font-size: 15px;
 line-height: 1;
 color: #333;
@@ -12,7 +13,6 @@ background: #eee;
 }
 footer{
     text-align: center;
-    background: white;
 }
 
 #main{
@@ -43,6 +43,8 @@ text-align: center;
 #title
 {
 text-align: center;
+margin-top: 20px;
+margin-bottom: 10px;
 }
 #tribute-info{
 display: grid;
@@ -52,13 +54,18 @@ grid-gap: 100px 200px;
 text-align: center;
 font-size: 15px;
 line-height: 1.5;
-margin: 10px auto 10px 0 ;
+margin: 10px auto 10px auto;
+justify-content: center;
 }
 
 blockquote {
   font-style: italic;
   max-width: 545px;
   margin: 0 auto 50px auto;
+}
+
+.item{
+    font-weight: 100;
 }
 
 
@@ -75,85 +82,85 @@ blockquote {
     <p id="img-caption">Barack Obama in 1980</p>
   </div>
   <div id="tribute-info">
-    <div id="1">
+    <div id="item-1">
         <h3>1961<h3>
-        <p>On February 2, Barack Obama, Sr., a Kenyan, and Stanley Ann Dunham, an
+        <p class="item">On February 2, Barack Obama, Sr., a Kenyan, and Stanley Ann Dunham, an
         American, married in Maui. On August 4, Barack Jr. was born in Honolulu,
         Hawaii
         </p>
         </div>
         <div id="item-2">
         <h3>1965<h3>
-        <p>Barack’s mother married an Indonesian man, Lolo Soetoro.</p>
+        <p class="item">Barack’s mother married an Indonesian man, Lolo Soetoro.</p>
         </div>
         <div id="item-3">
         <h3>1967<h3>
-        <p>Ann and Barack Jr. moved to Lolo Soetoro's hometown of Jakarta, Indonesia.</p>
+        <p class="item">Ann and Barack Jr. moved to Lolo Soetoro's hometown of Jakarta, Indonesia.</p>
         </div>
         <div id="item-4">
         <h3>1979<h3>
-        <p>Barack Jr. started attending college at Occidental College in Los Angeles.</p>
+        <p class="item">Barack Jr. started attending college at Occidental College in Los Angeles.</p>
         </div>
         <div id="item-5">
         <h3>1981<h3>
-        <p>Obama made his first public speech thereafter, he
+        <p class="item">Obama made his first public speech thereafter, he
         transferred to Columbia University in order to major in political science.</p>
         </div>
         <div id="item-6">
         <h3>1983<h3>
-        <p>Barack graduated from Columbia University with a Bachelor of Arts degree, magna cum laude.</p>
+        <p class="item">Barack graduated from Columbia University with a Bachelor of Arts degree, magna cum laude.</p>
         </div>
         <div id="item-7">
         <h3>1988<h3>
-        <p>Barack Obama began to study at Harvard Law School. It was here
+        <p class="item">Barack Obama began to study at Harvard Law School. It was here
         that he met the future Mrs. Michelle Obama.</p>
         </div>
         <div id="item-8">
         <h3>1991<h3>
-        <p>Obama graduated from Harvard with his law degree</p>
+        <p class="item">Obama graduated from Harvard with his law degree</p>
         </div>
         <div id="item-9">
         <h3>1992<h3>
-        <p> Obama began to teach constitutional law at the University of Chicago Law
+        <p class="item"> Obama began to teach constitutional law at the University of Chicago Law
         School. In October, Obama married Michelle Robinson.</p>
         </div>
         <div id="item-10">
         <h3>1996<h3>
-        <p>Obama was elected to the Illinois Senate.</p>
+        <p class="item">Obama was elected to the Illinois Senate.</p>
         </div>
         <div id="item-11">
         <h3>1999<h3>
-        <p>Obama Jr. ran for Congress. However, he lost to the Republican Bobby Rush.</p>
+        <p class="item">Obama Jr. ran for Congress. However, he lost to the Republican Bobby Rush.</p>
         </div>
         <div id="item-12">
         <h3>2002<h3>
-        <p>Obama started to campaign for the United States Senate.</p>
+        <p class="item">Obama started to campaign for the United States Senate.</p>
         </div>
         <div id="item-13">
         <h3>2004<h3>
-        <p>On July 7, Obama was asked to give a keynote speech at the Democratic National 
+        <p class="item">On July 7, Obama was asked to give a keynote speech at the Democratic National 
             Convention. On November 2, he was elected to the United StatesSenate.</p>
         </div>
         <div id="item-14">
         <h3>2005<h3>
-        <p>On January 5, Obama was sworn in as a U.S. Senator.</p>
+        <p class="item">On January 5, Obama was sworn in as a U.S. Senator.</p>
         </div>
         <div id="item-15">
         <h3>2007<h3>
-        <p>Obama announced his candidacy to become President of the United States.</p>
+        <p class="item">Obama announced his candidacy to become President of the United States.</p>
         </div>
         <div id="item-16">
         <h3>2008<h3>
-        <p>Obama announced his candidacy to become President of the United States. On November 5, Obama 
+        <p class="item">Obama announced his candidacy to become President of the United States. On November 5, Obama 
             defeated Republican John McCain in the general election and would be the next president.</p>
         </div>
         <div id="item-17">
         <h3>2011<h3>
-        <p>On April 4, he announced his re-election campaign. </p>
+        <p class="item">On April 4, he announced his re-election campaign. </p>
         </div>
         <div id="item-18">
         <h3>2017<h3>
-        <p>January 20th marked Obama’s last day in office.</p>
+        <p class="item">January 20th marked Obama’s last day in office.</p>
   </div>
 </main>
   <footer>
